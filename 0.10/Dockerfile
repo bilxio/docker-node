@@ -1,6 +1,6 @@
 FROM tutum/ubuntu:precise
 
-MAINTAINER haibxz@gmail.com
+MAINTAINER Bill.Xiong<haibxz@gmail.com>
 
 RUN apt-get update && apt-get install -y curl
 RUN curl -sL https://deb.nodesource.com/setup_0.10 | bash -
